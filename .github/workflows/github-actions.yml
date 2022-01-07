@@ -10,7 +10,7 @@ jobs:
       - name: Recuperation du repo
         uses: actions/checkout@v2
       - name: recuperation angular
-        uses: ng-easy/npm-install@v1
+        uses: bahmutov/npm-install@v1
         #build et tests
       - run: npm run build
       - run: npm test
