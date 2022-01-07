@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    container_name: weather-app
+    #entrypoint est la commande run du dockerfile avec $$location en variable dans .env
+    entrypoint: ["node", "app", "--location $$(LOCATION)"]
