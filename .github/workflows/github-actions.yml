@@ -11,8 +11,7 @@ jobs:
         uses: actions/checkout@v2
       - name: recuperation angular
         uses: bahmutov/npm-install@v1
-        #build et tests
-      - run: npm run build
+        #tests
       - run: npm test
 
   
