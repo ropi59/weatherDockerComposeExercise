@@ -3,3 +3,6 @@ services:
   app:
     build: .
     container_name: weather-app
+    ports:
+      - 80:4200
+    restart: always
