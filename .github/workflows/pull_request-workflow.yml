@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Recuperation du repo
-        uses: actions/checkout@v
+        uses: actions/checkout@v2
       - name: recuperation de node js
         uses: actions/setup-node@v2
         with:
